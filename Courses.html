@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses - Knowledge.Kart</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header class="header">
+  <a href="index.html" class="logo"><i class="fas fa-graduation-cap"></i>Knowledge.Kart</a>
+  <div id="menu-btn" class="fas fa-bars"></div>
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="courses.html" class="active">Courses</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="home">
+  <div class="content">
+    <h3>Our Popular Courses</h3>
+    <p>Explore a wide range of technology courses designed to make you industry-ready.</p>
+  </div>
+</section>
+
+<section class="category">
+  <a href="#" class="box"><img src="website-development-banner_33099-1687.jpg" alt=""><h3>Web Development</h3></a>
+  <a href="#" class="box"><img src="ai-ml-new20article-vizrt-hdr-img-1920x1080-1.webp" alt=""><h3>Artificial Intelligence</h3></a>
+  <a href="#" class="box"><img src="What-is-data-science-2.jpg" alt=""><h3>Data Science</h3></a>
+  <a href="#" class="box"><img src="images.jpeg" alt=""><h3>Cyber Security</h3></a>
+  <a href="#" class="box"><img src="The 5 Biggest Cloud Computing Trends In 2021.jpg" alt=""><h3>Cloud Computing</h3></a>
+</section>
+
+<section class="footer">
+  <div class="box-container">
+    <div class="box"><h3>Explore</h3>
+      <a href="index.html"><i class="fas fa-arrow-right"></i> Home</a>
+      <a href="about.html"><i class="fas fa-arrow-right"></i> About</a>
+      <a href="courses.html"><i class="fas fa-arrow-right"></i> Courses</a>
+      <a href="contact.html"><i class="fas fa-arrow-right"></i> Contact</a>
+    </div>
+    <div class="box"><h3>Follow Us</h3>
+      <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+      <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+      <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    </div>
+  </div>
+  <div class="credit">Created by <span>Knowledge.Kart</span> | All Rights Reserved!</div>
+</section>
+
+<section class="course-1">
+    <div class="box" data-title="Course 01" data-desc="Learn the basics of Computer Science" data-price="₹499">
+        <img src="images/course-1.png" alt="">
+        <h3>Course 01</h3>
+    </div>
+
+    <div class="box" data-title="Course 02" data-desc="Introduction to Artificial Intelligence" data-price="₹799">
+        <img src="images/course-2.png" alt="">
+        <h3>Course 02</h3>
+    </div>
+
+    <div class="box" data-title="Course 03" data-desc="Database Management System Basics" data-price="₹699">
+        <img src="images/course-3.png" alt="">
+        <h3>Course 03</h3>
+    </div>
+
+    <div class="box" data-title="Course 04" data-desc="Theory of Computation" data-price="₹599">
+        <img src="images/course-4.png" alt="">
+        <h3>Course 04</h3>
+    </div>
+
+    <div class="box" data-title="Course 05" data-desc="Cloud Computing Essentials" data-price="₹899">
+        <img src="images/course-5.png" alt="">
+        <h3>Course 05</h3>
+    </div>
+</section>
+
+<!-- Modal -->
+<div class="course-modal" id="courseModal">
+    <div class="modal-content">
+        <span class="close-btn" id="closeModal">&times;</span>
+        <h2 id="modalTitle"></h2>
+        <p id="modalDesc"></p>
+        <p id="modalPrice"></p>
+        <button id="addCartBtn">Add to Cart</button>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
